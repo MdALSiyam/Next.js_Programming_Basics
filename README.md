@@ -2,7 +2,7 @@
 
 This repository contains basic concepts of Next.js App Router (Level 1).
 
-## 🚀 What is included in Level 1:
+## Level 1:
 
 1. **Basic Page Routing (`app/page.js` & `app/about/page.js`)**
    - File-based routing in Next.js App Router.
