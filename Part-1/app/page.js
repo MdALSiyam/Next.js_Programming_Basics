@@ -7,7 +7,6 @@ export default function HomePage() {
       <h1>Welcome to Next.js Level 1 🚀</h1>
       <p>This is the Home Page.</p>
       
-      {/* Use Link component instead of standard HTML <a> tag for faster client-side navigation */}
       <Link href="/about">Go to About Page ➡️</Link>
     </main>
   );
