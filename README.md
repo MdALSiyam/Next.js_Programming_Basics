@@ -15,4 +15,3 @@ This repository contains basic concepts of Next.js App Router.
 3. **Server Component vs Client Component (`app/counter/page.js`)**
    - Server Components by default in Next.js.
    - Using `'use client'` directive to enable React hooks (`useState`) and interactivity.
-
