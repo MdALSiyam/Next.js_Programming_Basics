@@ -1,5 +1,7 @@
 # Next.js Learning Journey
+
 ---
+
 ## Level 1: Basics & Routing
 
 1. **Basic Page Routing (`app/page.js` & `app/about/page.js`)**
@@ -42,3 +44,36 @@
 
 3. **API Route Handlers (`Part-3/app/api/hello/route.js`)**
    - Creating custom backend API endpoints within Next.js using `NextResponse`.
+
+---
+
+## Level 4: SSG, ISR & Dynamic Metadata
+
+1. **Static Site Generation (SSG) & Incremental Static Regeneration (ISR) (`Part-4/app/posts/[id]/page.js`)**
+   - Static rendering combined with background revalidation using `next: { revalidate: 60 }`.
+
+2. **Dynamic Metadata (`Part-4/app/posts/[id]/page.js`)**
+   - Generating dynamic SEO metadata tags per page using `generateMetadata()`.
+
+---
+
+## Level 5: Server Actions & Form Mutations
+
+1. **Server Actions (`Part-5/app/feedback/page.js`)**
+   - Mutating data on the server using `'use server'` functions directly from HTML forms.
+
+2. **Path Revalidation (`Part-5/app/feedback/page.js`)**
+   - Triggering instant UI updates via `revalidatePath()`.
+
+---
+
+## Level 6: Middleware & Route Protection
+
+1. **Middleware Request Filtering (`Part-6/middleware.js`)**
+   - Intercepting requests globally to check authentication cookies and handle redirects.
+
+2. **Authentication Flow (`Part-6/app/login/page.js`)**
+   - Simulating client-side user login and setting authentication cookies.
+
+3. **Protected Routes (`Part-6/app/protected/dashboard/page.js`)**
+   - Restricting unauthorized access to dashboard routes via dynamic middleware routing.
