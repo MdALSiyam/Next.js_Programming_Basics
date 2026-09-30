@@ -1,4 +1,4 @@
-# Next.js App Learning Journey
+# Next.js Learning Journey
 
 A practical, hands-on masterclass roadmap covering Next.js App Router from foundational basics to advanced full-stack concepts, database integration, and production deployment.
 
